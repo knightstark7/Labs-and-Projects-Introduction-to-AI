@@ -1,0 +1,99 @@
+1. What countries are neighboring Vietnam?
+?- neighbor(X, vietnam).
+X = china ;
+X = laos.
+
+2. What is the capital of France?
+?- capital(X, france).
+X = paris.
+
+3. Which countries are in Europe?
+?- continent(X, europe).
+X = germany ;
+X = russia ;
+X = france ;
+X = poland.
+
+4. Which cities are in Southeast Asia?
+?- city_region(X, southeast_asia).
+X = vientiane ;
+X = hanoi.
+
+5. What region is Egypt in?
+?- country(egypt, X).
+X = north_africa.
+
+6. Which country is neighboring Japan?
+?- neighbor(japan, X).
+X = south_korea ;
+X = china.
+
+7. What is the capital of Poland?
+?- capital(X, poland).
+X = warsaw.
+
+8. Is Hanoi and Tokyo in the same continent?
+?- in_same_continent(hanoi, tokyo).
+true.
+
+
+9. Which countries are in Central America?
+?- country(X, central_america).
+X = mexico.
+
+10. Which city is the capital of Egypt?
+?- capital(X, egypt).
+X = cairo.
+
+11. Which countries are in Asia?
+?- continent(X, asia).
+X = vietnam ;
+X = japan ;
+X = south_korea ;
+X = laos ;
+X = india ;
+X = china.
+
+12. Which country is neighboring Russia?
+?- neighbor(X, russia).
+X = poland ;
+X = china ;
+X = germany.
+
+13. Which countries have Moscow as their capital?
+?- capital(moscow, X).
+X = russia.
+
+14. Which country is neighboring both Germany and Poland?
+?- neighbor(X, germany, poland).
+X = russia ;
+X = france.
+
+15. Which countries are in North America?
+?- country(X, north_america).
+X = canada ;
+X = usa.
+
+16. Which city is the capital of Egypt?
+?- capital(X, egypt).
+X = cairo.
+
+17. Which country is neighboring both Laos and China?
+?- neighbor(X, laos, china).
+X = vietnam.
+
+18. Which country is neighboring Brazil?
+?- neighbor(X, brazil).
+X = peru ;
+X = mexico.
+
+19. Which cities are capitals in Europe?
+?- capital_continent(X, europe).
+X = paris ;
+X = berlin ;
+X = warsaw ;
+X = moscow.
+
+20. What continent is Brazil in? 
+?- continent(brazil, X).
+X = america.

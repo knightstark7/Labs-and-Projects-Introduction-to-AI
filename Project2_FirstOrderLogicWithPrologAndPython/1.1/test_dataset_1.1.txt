@@ -1,0 +1,105 @@
+1. Who are Queen Elizabeth's children?
+    ?- child(X, queen_elizabeth).
+    X = prince_charles ;
+    X = princess_anne ;
+    X = prince_andrew ;
+    X = prince_edward.
+2. Who is Prince Charles' mother?
+    ?- mother(X, prince_charles).
+    X = queen_elizabeth.
+3. Who are Prince William's parents?
+    ?- grandparent(X, prince_william).
+    X = prince_philip ;
+    X = queen_elizabeth ;
+4. Who are Prince Philip's grandchildren?
+    ?- grandchild(X, prince_philip).
+    X = prince_william ;
+    X = prince_harry ;
+    X = peter_phillips ;
+    X = zara_phillips ;
+    X = princess_beatrice ;
+    X = princess_eugenie ;
+    X = lady_louise_mountbatten_windsor ;
+    X = james_viscount_severn.
+5. Is Kate Middleton the wife of Prince William?
+    ?- wife(kate_middleton, prince_william).
+    true.
+6. Who is Prince Harry's aunt?
+    ?- aunt(X, prince_harry).
+    X = princess_anne ;
+    X = princess_anne ;
+    X = sophie_rhys_jones ;
+    X = sophie_rhys_jones ;
+    false.
+7. Who are Prince George's parents?
+    ?- parent(X, prince_george).
+    X = prince_william ;
+    X = kate_middleton.
+8. Who are Princess Beatrice'siblings?
+    ?- sibling(X, princess_beatrice).
+    X = princess_eugenie ;
+    X = princess_eugenie ;
+    false.
+9. Is Peter Phillips brother of Zara Phillips?
+    ?- brother(peter_phillips, zara_phillips).  
+    true ;
+    true.
+10. Who are Prince Edward's nieces
+    ?- niece(X, prince_edward).
+    X = princess_beatrice ;
+    X = princess_beatrice ;
+    X = princess_eugenie ;
+    X = princess_eugenie ;
+    X = zara_phillips ;
+    X = zara_phillips ;
+    false.
+11. Is Prince Phillip grandfather of Mia Grace Tindall?
+    ?- grandfather(prince_philip, mia_grace_tindall).
+    false.
+12. Who is Prince Charles's granddaughter?
+    ?- granddaughter(X, prince_charles). 
+    X = princess_charlotte ;
+    false.
+13. Who are Prince Andrew's nephew?
+    ?- nephew(X, prince_andrew).
+    X = prince_william ;
+    X = prince_william ;
+    X = prince_harry ;
+    X = prince_harry ;
+    X = james_viscount_severn ;
+    X = james_viscount_severn ;
+    X = peter_phillips ;
+    X = peter_phillips ;
+    false.
+14. Who is Peter Phillips's grandfather?
+    ?- grandfather(X, peter_phillips).
+    X = prince_philip ;
+    false.
+15. Is James Viscount Severn son of Sophie Rhys-jones?
+    ?- son(james_viscount_severn, sophie_rhys_jones).
+    true .
+16. Who is Princess Anne's husband?
+    ?- husband(X, princess_anne).
+    X = timothy_laurence ;
+    false.
+17. Who is Camilla Parker Bowles' uncle?
+    ?- uncle(X, camilla_parker_bowles).
+    false.
+18. Who are Peter Phillips's daughters?
+    ?- daughter(X, peter_phillips). 
+    X = savannah_phillips ;
+    X = isla_phillips.
+19. Who are Queen Elizabeth's grandson?
+    ?- grandson(X, queen_elizabeth). 
+    X = prince_william ;
+    X = prince_harry ;
+    X = peter_phillips ;
+    X = james_viscount_severn. 
+20. Is Savannah Phillips sister of Isla Phillips?
+    ?- sister(savannah_phillips, isla_phillips).
+    true ;
+    true.
+21. Who is grandmother of Lady Louise Mountbatten Windsor?
+    ?- grandmother(X, lady_louise_mountbatten_windsor).
+    X = queen_elizabeth ;
+    false.

@@ -1,0 +1,79 @@
+child(X, queen_elizabeth).
+X = prince_andrew ;
+X = princess_anne ;
+X = prince_charles ;
+X = prince_edward.
+
+mother(X, prince_charles).
+X = queen_elizabeth.
+
+grandparent(X, prince_william).
+X = prince_philip ;
+X = queen_elizabeth.
+
+grandchild(X, prince_philip).
+X = princess_eugenie ;
+X = princess_beatrice ;
+X = peter_phillips ;
+X = zara_phillips ;
+X = prince_william ;
+X = james_viscount_severn ;
+X = prince_harry ;
+X = lady_louise_mountbatten_windsor.
+
+wife(kate_middleton, prince_william).
+true.
+
+aunt(X, prince_harry).
+X = princess_anne ;
+X = sophie_rhys_jones.
+
+parent(X, prince_george).
+X = prince_william ;
+X = kate_middleton.
+
+sibling(X, princess_beatrice).
+X = princess_eugenie.
+
+brother(peter_phillips, zara_phillips).
+true.
+
+niece(X, prince_edward).
+X = princess_beatrice ;
+X = zara_phillips ;
+X = princess_eugenie.
+
+grandfather(prince_philip, mia_grace_tindall).
+false.
+
+granddaughter(X, prince_charles).
+X = princess_charlotte.
+
+nephew(X, prince_andrew).
+X = peter_phillips ;
+X = prince_william ;
+X = james_viscount_severn ;
+X = prince_harry.
+
+grandfather(X, peter_phillips).
+X = prince_philip.
+
+son(james_viscount_severn, sophie_rhys_jones).
+true.
+
+husband(X, princess_anne).
+X = timothy_laurence.
+
+uncle(X, camilla_parker_bowles).
+false.
+
+daughter(X, peter_phillips).
+X = savannah_phillips ;
+X = isla_phillips.
+
+grandson(X, queen_elizabeth).
+X = peter_phillips ;
+X = prince_william ;
+X = james_viscount_severn ;
+X = prince_harry.
+
